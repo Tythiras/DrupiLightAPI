@@ -2,8 +2,11 @@
 API Component of LightAPI for Drupi
 ## Usage
 `LightAPI.create(Location Location, int Level, updateLight);` - Creates light at location
+
 `LightAPI.delete(Location Location, int Level, updateLight);` - Removes lighting at location
+
 `LightAPI.update(Location Location, int Level);` - Updates lighting at location visually
+
 
 ```js
 const LightAPI = require('LightAPI');
