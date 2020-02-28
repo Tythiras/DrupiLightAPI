@@ -24,7 +24,6 @@ function PlayerMoveEvent(event){
             playerLoc[player.getUniqueId()] = newLoc;
             LightAPI.create(newLoc, level, false);
             LightAPI.update(newLoc, level);
-            console.log('created');
         }
     }
 }
